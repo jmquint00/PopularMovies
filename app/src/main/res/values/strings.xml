@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Popular Movies</string>
+    <string name="title_movie_list">Popular Movies</string>
+    <string name="title_movie_detail">Movie Details</string>
+    <string name="user_rating_movie">%1$s/10</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="title_for_empty_view">Empty</string>
+    <string name="text_for_empty_view">No network connection, please check settings</string>
+    <string name="release_date_missing">Release date unknown</string>
+    <string name="add_to_favorites" tools:keep="@string/add_to_favorites">Mark Favorite</string>
+    <string name="watch_trailer" tools:keep="@string/watch_trailer">Watch Trailer</string>
+    <string name="favorites">Favorites</string>
+    <string name="remove_from_favorites" tools:keep="@string/remove_from_favorites">Remove from Favorites</string>
+    <string name="title_for_empty_view_favorites">Empty</string>
+    <string name="text_for_empty_view_favorites">Movies added to <u>Favorites</u> will display here</string>
+    <string name="sort_by">Sort by</string>
+    <string name="share_trailer">Share Trailer</string>
+    <string name="url_for_downloading_poster">http://image.tmdb.org/t/p/w342</string>
+    <string name="url_for_downloading_backdrop">http://image.tmdb.org/t/p/original</string>
+    <string name="movie_overview_label">Overview</string>
+    <string name="trailer_label">Trailers</string>
+    <string name="review_label">Reviews</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+
+</resources>

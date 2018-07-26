@@ -1,0 +1,31 @@
+
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_mark_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="visible"
+        app:backgroundTint="@color/Plum"
+        app:srcCompat="@android:drawable/btn_star_big_off" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_remove_favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:visibility="gone"
+        android:layout_gravity="end"
+        app:backgroundTint="@color/BlueViolet"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+</merge>
